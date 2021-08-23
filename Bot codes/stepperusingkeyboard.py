@@ -54,22 +54,22 @@ while True:
         stepper_worker(kit.stepper1,
                 20,
                 move_dir[0],
-                stepstyles[3])
+                stepstyles[0])
     if(char == "s"):
         stepper_worker(kit.stepper1,
                 20,
                 move_dir[1],
-                stepstyles[3])
+                stepstyles[0])
     if(char == "e"):
         stepper_worker(kit.stepper2,
                 20,
                 move_dir[0],
-                stepstyles[3])
+                stepstyles[0])
     if(char == "d"):
         stepper_worker(kit.stepper2,
                 20,
                 move_dir[1],
-                stepstyles[3])
+                stepstyles[0])
     if(char == "o"):
         quit()
     
